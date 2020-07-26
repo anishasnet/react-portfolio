@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navigation from './Navigation';
 import About from './pages/About';
 import Projects from './Projects';
-import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import Navigation from './Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
@@ -16,11 +16,11 @@ function Portfolio() {
         case 'Portfolio': 
         return (<Projects></Projects>)
 
-        case 'Contact': 
-        return (<Contact></Contact>)
-
         case 'Resume':
             return (<Resume></Resume>)
+
+        case 'Contact': 
+        return (<Contact></Contact>)
 
         default: 
         return(<About></About>)
