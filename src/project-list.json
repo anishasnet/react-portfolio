@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Recipe Parade",
+        "image": "https://raw.githubusercontent.com/izabelacloud/Recipe-Parade/master/assets/Hero-Image.png",
+        "deployed_app": "https://recipe-parade.herokuapp.com/",
+        "github": " https://github.com/izabelacloud/Recipe-Parade"
+    },
+    {
+        "id": 2,
+        "proj_name": "Budget Tracker",
+        "image": "https://raw.githubusercontent.com/anishasnet/budget-tracker/master/images/page1.png",
+        "deployed_app": "http://anishasnet-budget-tracker.herokuapp.com/",
+        "github": "https://github.com/anishasnet/budget-tracker"
+    },
+    {
+        "id": 3,
+        "proj_name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/anishasnet/tech-blog/master/assets/images/image1.png",
+        "deployed_app": "http://anishasnet-tech-blog.herokuapp.com/",
+        "github": "https://github.com/anishasnet/tech-blog"
+    },
+    {
+        "id": 4,
+        "name": "Search the Sound",
+        "image": "https://raw.githubusercontent.com/DHernandez24e/search-the-sound/master/pic2.png",
+        "deployed_app": "https://dhernandez24e.github.io/search-the-sound/",
+        "github": "https://github.com/DHernandez24e/search-the-sound"
+    },
+    {
+        "id": 5,
+        "proj_name": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/anishasnet/weather-dashboard/master/assets/images/page1.png",
+        "deployed_app": "https://anishasnet.github.io/weather-dashboard/",
+        "github": "https://github.com/anishasnet/weather-dashboard"
+      },
+    {
+        "id": 6,
+        "proj_name": "Code Quiz",
+        "image": "https://raw.githubusercontent.com/anishasnet/coding-quiz/master/assets/images/page1.png",
+        "deployed_app": "https://anishasnet.github.io/coding-quiz/",
+        "github": "https://github.com/anishasnet/coding-quiz"
+    }
+]
