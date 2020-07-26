@@ -4,7 +4,6 @@ import Projects from './Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Navigation from './Navigation';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
     const [currentPage, handlePageChange] = useState('About');
