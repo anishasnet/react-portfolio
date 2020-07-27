@@ -1,5 +1,6 @@
 import React from 'react';
 
+//nav bar has about me, portfolio, resume, contact tabs
 function Navigation(props) {
   const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
   return (

@@ -1,8 +1,11 @@
 import React from "react";
 //import coverImage from '../../assets/images/coverImage.jpg';
+//import profile picture for about me
 import profilePicture from '../../assets/images/profilePicture.jpg';
 
+//includes profile picture + bio
 function About() {
+    //html for about me page
     return (
         <section className="about-section">
             {/* <h1 id="about">Anisha Sinha</h1>

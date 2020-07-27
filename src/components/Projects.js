@@ -1,6 +1,7 @@
 import React, { useState} from "react";
+//import all projects
 import projects from '../project-list.json';
-
+//create cards for each project
 function ProjectCard(props) {
   return (
     <div className="card-container">
@@ -24,7 +25,7 @@ function ProjectCard(props) {
 function Wrapper(props) {
   return <div className="">{props.children}</div>;
 }
-
+//render each project as a card
 function Projects() {
     const [projectsList] = useState(projects);
     const renderProject = (project) => {
@@ -43,7 +44,6 @@ function Projects() {
     <Wrapper>
       <div className = "project-main">
         <h1 className="project-list" id="section-title">Project List</h1>
-
           {projectsList.map((project) => (
             renderProject(project)
           ))}      

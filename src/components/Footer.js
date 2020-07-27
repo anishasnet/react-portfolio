@@ -1,5 +1,6 @@
 import React from "react";
 
+//includes github, linkedin, stackoverflow icons and takes to link
 const Footer = () => (
     <>
   <div className="footer">

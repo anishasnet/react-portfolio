@@ -1,13 +1,16 @@
 import React, { useState } from "react";
+//email validation helper function
 import { validateEmail} from '../../utils/helpers';
 
 function Contact() {
     const [formState, setFormState] = useState({name: '', email: '', message: '',});
+    //form takes name, email, and message
     const { name, email, message } = formState
     const [errorMessage, setErrorMessage] = useState('');
     function handleChange(e) {
         setFormState({...formState, [e.target.name]: e.target.value})
         if (e.target.name === 'email') {
+            // validate email
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
                 if (!isValid) {
@@ -16,6 +19,7 @@ function Contact() {
                     setErrorMessage('');
                 }
         } else {
+            // if no value entered print error message.
             if (!e.target.value.length) {
               setErrorMessage(`${e.target.name} is required.`);
             } else {
@@ -24,6 +28,7 @@ function Contact() {
         }
         if (e.target.name === 'message') {
         } else {
+            // if no value entered print error message.
             if (!e.target.value.length) {
               setErrorMessage(`${e.target.name} is required.`);
             } else {
@@ -39,6 +44,7 @@ function Contact() {
         e.preventDefault();
         console.log(formState);
     }
+    //html for contact page
     return (
         <section className="contact-main">
             <h1 className="contact-container" id = "section-title">Contact</h1>

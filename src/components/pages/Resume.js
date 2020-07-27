@@ -1,16 +1,9 @@
 import React from "react";
+// Page includes downloadble resume + proficiencies list
 const Resume = () => (
-  // <div>
-  //   <h1 className="resume-list">Resume</h1>
-
-  //   <div className="resume-link">
-  //   <a href="https://docs.google.com/document/d/1jY2DqsmcsZDrVT3K8D8xEQ9THtNKiTII30Fd-2XDDxA/edit?usp=sharing" target="blank" alt="Resume">Resume for Download</a>
-  //   </div>
-
     <div className="resume-main">
       <div>
         <h1 className="resume-list" id="section-title">Resume</h1>
-
         <div className="resume-link">
           <a href="https://docs.google.com/document/d/1jY2DqsmcsZDrVT3K8D8xEQ9THtNKiTII30Fd-2XDDxA/edit?usp=sharing" target="blank" alt="Resume">Download Here</a>
         </div>
