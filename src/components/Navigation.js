@@ -3,9 +3,9 @@ import React from 'react';
 function Navigation(props) {
   const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
   return (
-    <ul className="nav ">
+    <ul className="nav-ul">
       {tabs.map(tab => (
-        <li className="" key={tab}>
+        <li className='nav-li' key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}

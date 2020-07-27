@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Recipe Parade",
+        "proj_name": "Recipe Parade",
         "image": "https://raw.githubusercontent.com/izabelacloud/Recipe-Parade/master/assets/Hero-Image.png",
         "deployed_app": "https://recipe-parade.herokuapp.com/",
         "github": " https://github.com/izabelacloud/Recipe-Parade"
@@ -22,7 +22,7 @@
     },
     {
         "id": 4,
-        "name": "Search the Sound",
+        "proj_name": "Search the Sound",
         "image": "https://raw.githubusercontent.com/DHernandez24e/search-the-sound/master/pic2.png",
         "deployed_app": "https://dhernandez24e.github.io/search-the-sound/",
         "github": "https://github.com/DHernandez24e/search-the-sound"

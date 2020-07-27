@@ -40,8 +40,8 @@ function Contact() {
         console.log(formState);
     }
     return (
-        <section className="">
-            <h1 className="contact-container">Contact</h1>
+        <section className="contact-main">
+            <h1 className="contact-container" id = "section-title">Contact</h1>
             <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

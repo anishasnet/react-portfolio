@@ -3,14 +3,19 @@ import projects from '../project-list.json';
 
 function ProjectCard(props) {
   return (
-    <div className="card-container col-12">
+    <div className="card-container">
+      
         <div className="card">
-          <img alt={props.proj_name} src={props.image} className="card-img" />
-          <h3>{props.name}</h3>
-          <div>
-              <a href={props.deployed_app} target="_blank" rel="noopener noreferrer">Deployed Application</a>  
+        <h2 className="project-name">{props.proj_name}</h2>
+          <div className="card-img-container">
+            <img alt={props.proj_name} src={props.image} className="card-img" />
+          
+            <div className="overlay">
+                <h3>{props.name}</h3>
+                <a href={props.deployed_app} target="_blank" rel="noopener noreferrer">Deployed Application</a>  <br/><br/>
+                <a href={props.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
           </div>
-          <a href={props.github} target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>  
     </div>
   );
@@ -36,11 +41,13 @@ function Projects() {
     }
   return (
     <Wrapper>
-      <h1 className="project-list">Project List</h1>
+      <div className = "project-main">
+        <h1 className="project-list" id="section-title">Project List</h1>
 
-        {projectsList.map((project) => (
-        renderProject(project)
-      ))}      
+          {projectsList.map((project) => (
+            renderProject(project)
+          ))}      
+      </div>
     </Wrapper>
   );
 }

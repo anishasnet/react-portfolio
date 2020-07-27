@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import coverImage from '../assets/images/coverImage.jpg';
 import About from './pages/About';
 import Projects from './Projects';
 import Resume from './pages/Resume';
@@ -28,7 +29,11 @@ function Portfolio() {
 
 return (
     <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className="container">
+        <img src={coverImage} className="hero"  alt="cover" />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        <h1 id="about">Anisha Sinha</h1>
+      </div>
       <div>
         {
           renderPage()
