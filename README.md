@@ -24,11 +24,13 @@ npm install
 
 ## Application
 
-To view the deployed application visit:
+To view the deployed application visit: https://anishasnet.github.io/react-portfolio/
 
 ## Preview
 
 Here is a preview of the portfolio:
+
+![Preview of Application](./src/assets/images/preview.png)
 
 ## Usage
 
