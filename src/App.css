@@ -96,14 +96,14 @@ Footer {
   margin: 0 40%;
   background-color: #e7717d;
 }
-.footer-link {
+.footer-img {
   display: inline-block;
   width: 100px;
   height: 60px;
   transition-duration: 0.3s;
 }
 
-.footer-link:hover {
+.footer-img:hover {
   transition-duration: 0.3s;
   opacity: 0.5;
 }
