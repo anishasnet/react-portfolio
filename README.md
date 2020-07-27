@@ -1,4 +1,48 @@
+# React Portfolio
+
+## Description
+This project is a website that is a portfolio for Anisha Sinha. It is made using React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Table of Contents
+* [Installation](#installation)
+* [Application](#application)
+* [Preview](#preview)
+* [Usage](#usage)
+* [License](#license)
+* [Available-Scripts](#available-scripts)
+* [Learn-More](#learn-more)
+* [Questions](#questions)
+
+## Installation
+
+To install neccesary dependencies, run the following command:
+
+```
+npm install
+```
+
+## Application
+
+To view the deployed application visit:
+
+## Preview
+
+Here is a preview of the portfolio:
+
+## Usage
+
+Run the follow to view the application: 
+
+```
+npm start
+```
+
+## License
+
+This project is under no license.
+
+
 
 ## Available Scripts
 
@@ -66,3 +110,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Questions
+
+For any further questions please email anishasnet@gmail.com. You can find more of my work at [anishasnet](https://github.com/anishasnet).
