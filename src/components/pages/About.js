@@ -21,7 +21,8 @@ function About() {
                     <h4>About me</h4>
                     <p>
                     Anisha Sinha is a student at Purdue University studing Computer Science pursuing a B.S. She is expected to graduate in 2023. 
-                    She graduated Monta Vista High School in Cupertino, CA in 2019. In her free time, Anisha likes hiking and spending time with friends. 
+                    She graduated Monta Vista High School in Cupertino, CA in 2019. In her free time, Anisha likes hiking and spending time with friends.
+                    You can contact her at anishasnet@gmail.com
                     </p>
                 </div>
             </div>
